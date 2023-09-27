@@ -33,6 +33,7 @@ input[type=text], select {
     padding: 10px 15px;
     font-size: 18px;
     border-radius: 10px;
+    overflow-x: auto;
   }
   .contact1 {
     border-radius: 5px;

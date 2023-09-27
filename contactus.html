@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPT</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/contactus.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        function handleSubmit() {
+          alert("Submit thành công!");
+        }
+      </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <img width="258" height="80"
+                    src="https://daihoc.fpt.edu.vn/wp-content/uploads/2023/04/cropped-cropped-2021-FPTU-Long.png"
+                    alt="">
+                <div class="tkiem" style="margin-top: 25px;">
+                    <input type="search" placeholder="Tìm kiếm tại đây...">
+                    <button>Tìm kiếm</button>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="aboutus.html">Giới thiệu</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Ngành học</a></li>
+                <li><a href="">Liên hệ</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <!---->
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://daihoc.fpt.edu.vn/wp-content/uploads/2020/06/banner03.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://daihoc.fpt.edu.vn/wp-content/uploads/2021/09/Banner-web-FPTU-2021-tracuu-loctuyen-ccologo.png"
+                    class="d-block w-100">
+            </div>
+        </div>
+    </div>
+    <!---->
+
+    <div class="intro">
+        <div class="container">
+            <div class="info">
+                <p>Chào mừng các bạn đã đến với website của trường</p>
+            </div>
+            <div class="btn">
+                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover"
+                    title="Hong có gì để xem đâu <3" data-content="">Xem thêm thông tin chi tiết</button>
+            </div>
+        </div>
+    </div>
+    <!---->
+
+    <div class="container">
+		<article>
+			<div class="breadcrumbs">
+				Trang chủ > Liên hệ
+			</div>
+			<div class="contact1">
+				<h4><i class="fa fa-handshake-o"></i>Liên hệ với chúng tôi:</h4><br>
+				
+            <form>
+                <label for="fname">Tên đăng nhập:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Tên đăng nhập...">
+                <br>
+                <label for="lname">Mật khẩu:</label>
+                <input type="text" id="lname" name="lastname" placeholder="Mật khẩu...">
+                <br>
+                <label for="lphone">Số điện thoại:</label>
+                <input type="text" id="lname" name="phonenumber" placeholder="Số điện thoại..."><br>
+                <label for="country">Đất nước:</label>
+                <select id="country" name="country">
+                    <option value="vietnam">Viet Nam</option>
+                    <option value="china">China</option>
+                    <option value="usa">USA</option>
+                </select><br>
+                <label for="note" place>Ý kiến của bạn:</label><br><br>
+                <textarea name="message" rows="10" cols="80" placeholder="Nhập nội dung..."></textarea>
+                <br><br>
+                <button type="submit" onclick="handleSubmit()">Submit</button>
+            </form>
+			</div>
+			<div class="contact2">
+				<p><span>Địa chỉ:</span>Khu đô thị
+                    công nghệ FPT Đà Nẵng, P. Hoà Hải, Q. Ngũ Hành Sơn, TP. Đà Nẵng</p>
+				<p><span>Điện thoại:</span> 0236 730 1866</p>
+				<p><span>Email:</span> daihocfpt@fpt.edu.vn</p>
+				<p><b><i>Cám ơn quý khách đã gửi ý kiến. Chúng tôi sẽ phản hồi trong thời gian sớm nhất !</i></b></p>
+			</div>
+		</article>
+	</div>
+    <!---->
+
+    
+
+    <footer>
+        <div class="footer-t">
+            <div class="container">
+                <div class="info-2">
+                    <h4>Đại học FPT</h4>
+                    <p><i style="font-size: 18px; margin-right: 16px;" class="fa fa-map-marker"></i>Địa chỉ: Khu đô thị
+                        công nghệ FPT Đà Nẵng, P. Hoà Hải, Q. Ngũ Hành Sơn, TP. Đà Nẵng</p>
+                    <p><i class="fa fa-phone-square"></i> Điện thoại: 0236 730 1866</p>
+                    <p><i class="fa fa-envelope"></i>Email: daihocfpt@fpt.edu.vn</p>
+                </div>
+                <div class="regist">
+                    <h4>Đăng ký nhận tin</h4>
+                    <p>Đăng ký email để nhận những thông tin mới nhất từ đại học FPT</p>
+                    <div class="btn-1">
+                        <input type="email" value size="26" placeholder="Địa chỉ email(*)">
+                        <button>Đăng ký</button>
+                    </div>
+                    <p>Mọi thông tin góp ý, vui lòng liên hệ hotline: <span
+                            style="font-weight: bold; color: rgb(2, 2, 2);"> 0236 730 1866</span></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-b">
+            <p>Nguyễn Thuận Tuấn Kiệt</p>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

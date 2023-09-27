@@ -1,0 +1,29 @@
+{
+  "name": "wedthpt",
+  "version": "1.0.0",
+  "description": "webTHPT",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kietnttde170170/webTHPT1.git"
+  },
+  "author": "Tuan Kiet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kietnttde170170/webTHPT1/issues"
+  },
+  "homepage": "https://github.com/kietnttde170170/webTHPT1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0"
+  }
+}
